@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "AbcDiatype";
+  src: url("./ABC_Diatype_Thin.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal; /* Extra-Light */
+}
+
+@font-face {
+  font-family: "AbcDiatype";
+  src: url("./ABC_Diatype_Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal; /* Light */
+}
+
+@font-face {
+  font-family: "AbcDiatype";
+  src: url("./ABC_Diatype_Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; /* Regular */
+}
+
+@font-face {
+  font-family: "AbcDiatype";
+  src: url("./ABC_Diatype_Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal; /* Medium */
+}
+
+@font-face {
+  font-family: "AbcDiatype";
+  src: url("./ABC_Diatype_Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal; /* Bold */
+}

@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  color: inherit;
+  font-size: inherit;
+  // scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 0.94rem !important; // 15px
+  font-family: var(--font-family);
+  background-color: #e2e0df;
+  overscroll-behavior: none;
+}
+
+#__next {
+  height: 100%;
+}
+
+button {
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+$border-color: #f3f9f9;
+
+select {
+  border-radius: 10px !important;
+}
+
+.form-control,
+input,
+select {
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid rgba($border-color, 0.3);
+
+  &:focus,
+  &:active {
+    outline: none;
+    box-shadow: none;
+    // border: 1px solid rgba($border-color, 0.3);
+  }
+
+  &:disabled {
+    border: none !important;
+    cursor: not-allowed;
+  }
+}
+
+.btn {
+  &:focus,
+  &:active,
+  &:visited,
+  &:active:focus,
+  &:focus-within,
+  &:focus-visible {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.form-select:disabled {
+  // background-color: $background-color !important;
+  border: none !important;
+  cursor: not-allowed;
+}
+
+select {
+  &:focus,
+  &:active,
+  &:visited,
+  &:active:focus,
+  &:focus-within,
+  &:focus-visible {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.spinner-border {
+  width: 1.45rem;
+  height: 1.45rem;
+  border: 0.15em solid currentColor;
+  border-right-color: transparent;
+}

@@ -1,0 +1,20 @@
+.app_loader_left,
+.app_loader_right {
+  border: 0.5px solid var(--stroke-plain-mirror);
+  border-radius: 5px;
+  width: 64px;
+  height: 64px;
+  backdrop-filter: blur(14px);
+  box-shadow: inset 1px 3px 33px 0 #d2d2d2;
+  background: linear-gradient(
+    180deg,
+    rgba(226, 224, 223, 0.6) 34.44%,
+    rgba(242, 242, 242, 0.1) 51.98%,
+    #7c7b7a 92.24%
+  );
+}
+
+.app_loader_right {
+  width: 411px;
+  height: 64px;
+}

@@ -1,0 +1,50 @@
+::-webkit-scrollbar {
+  // display: none;
+}
+
+:root {
+  --content-spacing-y: 4rem;
+  --content-spacing-x: 7.5rem;
+
+  @include screen('lg') {
+    --content-spacing-y: 2rem;
+    --content-spacing-x: 3.75rem;
+  }
+  @include screen('md') {
+    --content-spacing-y: 2rem;
+    --content-spacing-x: 2rem;
+  }
+}
+
+.app_header_left,
+.app_header_right,
+.app_footer_left,
+.app_footer_right {
+  position: absolute;
+  top: var(--content-spacing-y);
+  left: var(--content-spacing-x);
+  display: flex;
+  z-index: 9;
+}
+
+.app_header_right {
+  left: unset;
+  right: var(--content-spacing-x);
+}
+
+.app_footer_left {
+  top: unset;
+  bottom: var(--content-spacing-y);
+}
+
+.app_footer_right {
+  top: unset;
+  left: unset;
+  right: var(--content-spacing-x);
+  bottom: var(--content-spacing-y);
+}
+
+.app_canvas_container {
+  height: 100vh;
+  width: 100%;
+}

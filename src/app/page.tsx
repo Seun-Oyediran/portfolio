@@ -49,7 +49,7 @@ export default function Home() {
 
           <color attach="background" args={['#eee']} />
 
-          <ScrollControls pages={4} infinite={!false}>
+          <ScrollControls pages={4} infinite>
             <Experience />
           </ScrollControls>
         </Canvas>

@@ -2,6 +2,10 @@
   // display: none;
 }
 
+* {
+  touch-action: pan-x pan-y !important;
+}
+
 :root {
   --content-spacing-y: 4rem;
   --content-spacing-x: 7.5rem;
